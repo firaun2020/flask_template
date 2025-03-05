@@ -29,7 +29,7 @@ def get_example_workload():
 def post_example_workload():
     data = request.get_json(silent=True) or {} 
     name = data.get("who")
-    return f"Technology sucks - Dr. {name}"
+    return f"WHo told you to be here Mr-{name}"
 
 
 
